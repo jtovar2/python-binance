@@ -8080,7 +8080,7 @@ class Client(BaseClient):
 
     def place_convert_limit_order(self, **params):
         return self._request_margin_api('get', 'convert/limit/placeOrder', signed=True, data=params)
-    
+
     def get_convert_trade_history(self, **params):
         """Get C2C Trade History
 
